@@ -1,0 +1,49 @@
+/*navigation*/
+.menu {
+	font-weight: bold;
+	width: 199px;
+	box-sizing: border-box;
+	font-size: 12px;
+	vertical-align: top;
+	padding: 35px 21px 0;
+}
+
+.nav__list {
+	display: flex;
+	flex-flow: column;
+	list-style: none;
+	font-size: 12px;
+	color: #5972b1;
+	font-weight: bold;
+}
+.nav__item {
+    margin-bottom: 40px;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0 20px 40px 0;
+	vertical-align: middle;
+
+}
+
+.nav__icon-main {
+	background-image: url('../../img/main_icon.png');
+	
+}
+.nav__icon-feed {
+	background-image: url('../../img/feed_icon.png');
+	
+}
+.nav__icon-team {
+	background-image: url('../../img/team_icon.png');
+	
+}
+.nav__link {
+	text-decoration: none;
+	color: #5972b1;
+	margin-left: 40px;
+	letter-spacing: 2.4px;
+}
+.nav__link-active {
+	color: black
+}
